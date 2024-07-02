@@ -1,26 +1,62 @@
+import java.util.*;
+
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
-        HashMap<Integer,Integer> map=new HashMap<>();
+        // Create HashMaps to count the elements in both arrays
+        Map<Integer, Integer> map1 = new HashMap<>();
+        Map<Integer, Integer> map2 = new HashMap<>();
 
-        for(int i=0;i<nums1.length;i++){
-            if(map.containsKey(nums1[i])){
-                map.put(nums1[i],map.get(nums1[i])+1);
-            }
-            else{
-            map.put(nums1[i],1);}
+        // Fill the HashMaps with the counts of each element
+        for (int num : nums1) {
+            map1.put(num, map1.getOrDefault(num, 0) + 1);
         }
-        ArrayList<Integer>list=new ArrayList<>();
-        for(int i=0;i<nums2.length;i++){
-            if(map.get(nums2[i])!=null && map.get(nums2[i])>0){
-                list.add(nums2[i]);
-                map.put(nums2[i],map.get(nums2[i])-1);
 
+        for (int num : nums2) {
+            map2.put(num, map2.getOrDefault(num, 0) + 1);
+        }
+
+        // Determine which map is smaller
+        if (map1.size() > map2.size()) {
+            return intersectHelper(map2, map1);
+        } else {
+            return intersectHelper(map1, map2);
+        }
+    }
+
+    private int[] intersectHelper(Map<Integer, Integer> smallerMap, Map<Integer, Integer> largerMap) {
+        List<Integer> result = new ArrayList<>();
+
+        // Iterate through the smaller map and find intersections
+        for (Map.Entry<Integer, Integer> entry : smallerMap.entrySet()) {
+            int num = entry.getKey();
+            int countInSmaller = entry.getValue();
+            if (largerMap.containsKey(num)) {
+                int countInLarger = largerMap.get(num);
+                int count = Math.min(countInSmaller, countInLarger);
+                for (int i = 0; i < count; i++) {
+                    result.add(num);
+                }
             }
         }
-        int arr[]=new int[list.size()];
-        for(int i=0;i<list.size();i++){
-            arr[i]=list.get(i);
+
+        // Convert the result list to an array
+        int[] intersection = new int[result.size()];
+        for (int i = 0; i < result.size(); i++) {
+            intersection[i] = result.get(i);
         }
-        return arr;
+
+        return intersection;
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        int[] nums1 = {1, 2, 2, 1};
+        int[] nums2 = {2, 2};
+        System.out.println(Arrays.toString(solution.intersect(nums1, nums2))); // Output: [2, 2]
+
+        int[] nums1b = {4, 9, 5};
+        int[] nums2b = {9, 4, 9, 8, 4};
+        System.out.println(Arrays.toString(solution.intersect(nums1b, nums2b))); // Output: [4, 9]
     }
 }
