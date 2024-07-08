@@ -11,9 +11,7 @@ var numWaterBottles = function(numBottles, numExchange) {
         let rem= numBottles%numExchange
         numBottles = Math.floor(numBottles/numExchange);
         sum += numBottles;
-        console.log(numBottles%numExchange)
         numBottles = numBottles + (rem);
-        console.log(numBottles, sum)
     }
 
     return sum;
