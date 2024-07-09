@@ -16,9 +16,9 @@ class Solution {
         while(count != b+1){
             if(count < a-1){
                 first = first.next;
-                second = second.next;
+                //second = second.next;
             }
-            if(count >= a && count <= b){
+            if( count <= b){
                 second = second.next;
             }
             count++;
@@ -27,7 +27,7 @@ class Solution {
         while(first.next != null){
             first = first.next;
         }
-        first.next = second.next;
+        first.next = second;
         return list1;
     }
     
