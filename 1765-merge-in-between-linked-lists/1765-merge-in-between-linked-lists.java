@@ -12,12 +12,13 @@ class Solution {
     public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
         ListNode first = list1;
         ListNode second = list1;
-        int count = 1;
+        int count = 0;
         while(count != b+1){
-            if(count < a){
+            if(count < a-1){
                 first = first.next;
+                
             }
-            if( count != b+1){
+            if( count <= b){
                 second = second.next;
             }
             count++;
@@ -26,8 +27,7 @@ class Solution {
         while(first.next != null){
             first = first.next;
         }
-        first.next = second.next;
+        first.next = second;
         return list1;
     }
-    
 }
