@@ -23,11 +23,11 @@ class Solution {
             }
             i++;
         }
-       // String result = "";
+       
        StringBuilder result = new StringBuilder ();
         while(!stack.isEmpty()){
             result.insert(0,stack.pop());
-            // = stack.pop()+result;
+            
         }
         return result.toString();
     }
