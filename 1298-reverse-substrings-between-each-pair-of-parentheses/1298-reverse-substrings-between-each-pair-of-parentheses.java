@@ -10,7 +10,7 @@ class Solution {
             if(ch == ')'){
 
                 StringBuilder str = new StringBuilder ();
-                while(stack.peek() != '('){
+                while(stack.peek() != '(' && !stack.isEmpty()){
                     str.append(stack.pop());
                 }
                 stack.pop();
