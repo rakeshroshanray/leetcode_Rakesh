@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1765-merge-in-between-linked-lists](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1765-merge-in-between-linked-lists) |
+| [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Simulation
 |  |
