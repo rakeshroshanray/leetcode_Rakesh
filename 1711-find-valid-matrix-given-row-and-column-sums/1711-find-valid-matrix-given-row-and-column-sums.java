@@ -3,18 +3,18 @@ class Solution {
         int m = rowSum.length;
         int n = colSum.length;
         int[][] ans = new int[m][n];
-        int i = m-1;
-        int j = n-1;
-        while(i >= 0 && j >= 0){
+        int i = 0;
+        int j = 0;
+        while(i < m && j < n){
             if(rowSum[i] <= colSum[j]){
                 ans[i][j] = rowSum[i];
                 colSum[j] -= rowSum[i];
-                i--;
+                i++;
             }
             else {
                 ans[i][j] = colSum[j];
                 rowSum[i] -= colSum[j];
-                j--;
+                j++;
             }
         }
         return ans;
