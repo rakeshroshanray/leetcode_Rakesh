@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1207-delete-nodes-and-return-forest](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+| [2121-find-if-path-exists-in-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2121-find-if-path-exists-in-graph) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Matrix
 |  |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [2121-find-if-path-exists-in-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2121-find-if-path-exists-in-graph) |
 | [2472-build-a-matrix-with-conditions](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2472-build-a-matrix-with-conditions) |
 ## Topological Sort
 |  |
@@ -158,4 +160,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0948-sort-an-array) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2121-find-if-path-exists-in-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2121-find-if-path-exists-in-graph) |
+## Union Find
+|  |
+| ------- |
+| [2121-find-if-path-exists-in-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2121-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
