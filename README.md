@@ -167,9 +167,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [1007-numbers-with-same-consecutive-differences](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1007-numbers-with-same-consecutive-differences) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2121-find-if-path-exists-in-graph) |
 ## Union Find
 |  |
 | ------- |
 | [2121-find-if-path-exists-in-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2121-find-if-path-exists-in-graph) |
+## Backtracking
+|  |
+| ------- |
+| [1007-numbers-with-same-consecutive-differences](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1007-numbers-with-same-consecutive-differences) |
 <!---LeetCode Topics End-->
