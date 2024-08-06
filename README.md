@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0133-clone-graph) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0726-number-of-atoms) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1207-delete-nodes-and-return-forest) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0133-clone-graph) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2121-find-if-path-exists-in-graph) |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0133-clone-graph) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2121-find-if-path-exists-in-graph) |
 | [2472-build-a-matrix-with-conditions](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2472-build-a-matrix-with-conditions) |
 ## Topological Sort
@@ -167,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0133-clone-graph) |
 | [1007-numbers-with-same-consecutive-differences](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1007-numbers-with-same-consecutive-differences) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2121-find-if-path-exists-in-graph) |
 ## Union Find
