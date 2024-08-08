@@ -3,23 +3,25 @@ class Solution {
         int n = isConnected.length;
         boolean[] vis = new boolean[n];
         int res = 0;
-        for(int i = 0; i < n; i++){
-            if( !vis[i] ){
+        for (int i = 0; i < n; i++) {
+            if (!vis[i]) {
                 res++;
-                dfs(isConnected,vis,i,n);
+                Queue<Integer> que = new LinkedList<>();
+                que.add(i);
+                vis[i] = true;
+                while (!que.isEmpty()) {
+                    int curr = que.remove();
+                    for (int j = 0; j < n; j++) {
+                        if (isConnected[curr][j] == 1 && !vis[j]) {
+                            vis[j] = true;
+                            que.add(j);
+                        }
+                    }
+                }
             }
-        } 
+        }
 
         return res;
     }
 
-    public void dfs(int[][] isConnected,boolean[] vis, int curr, int n){
-
-        for(int i = 0; i<n; i++){
-            if(isConnected[curr][i] == 1 && !vis[i]){
-                vis[i] = true;
-                dfs(isConnected,vis,i,n);
-            }
-        }
-    }
 }
