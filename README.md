@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0133-clone-graph) |
+| [0547-number-of-provinces](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0547-number-of-provinces) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2121-find-if-path-exists-in-graph) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0133-clone-graph) |
+| [0547-number-of-provinces](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0547-number-of-provinces) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2121-find-if-path-exists-in-graph) |
 | [2472-build-a-matrix-with-conditions](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2472-build-a-matrix-with-conditions) |
 ## Topological Sort
@@ -171,11 +173,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0133-clone-graph) |
+| [0547-number-of-provinces](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0547-number-of-provinces) |
 | [1007-numbers-with-same-consecutive-differences](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1007-numbers-with-same-consecutive-differences) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2121-find-if-path-exists-in-graph) |
 ## Union Find
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0547-number-of-provinces) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/2121-find-if-path-exists-in-graph) |
 ## Backtracking
 |  |
