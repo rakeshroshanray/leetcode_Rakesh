@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0948-sort-an-array](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0948-sort-an-array) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1293-three-consecutive-odds) |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0133-clone-graph) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0726-number-of-atoms](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0726-number-of-atoms) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1207-delete-nodes-and-return-forest) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -36,14 +38,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0532-k-diff-pairs-in-an-array) |
 ## Binary Search
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0532-k-diff-pairs-in-an-array) |
 ## Sorting
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0726-number-of-atoms](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0726-number-of-atoms) |
 | [0948-sort-an-array](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/0948-sort-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/rakeshroshanray/leetcode_Rakesh/tree/master/1333-sort-the-jumbled-numbers) |
